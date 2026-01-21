@@ -1,7 +1,7 @@
 [project]
 name = "flightaware-converter"
 version = "0.1.0"
-description = "Add your description here"
+description = "Convert a KML from FlightAware into a better format."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
