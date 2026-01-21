@@ -18,9 +18,18 @@ This project is made with the following packages:
 
 ## How to use this package
 
+Clone this repository. Create a virtual environment, install/sync the with the `pyproject.toml`. 
+
 From the FAConvert folder, run `streamlit run 00_✈️_Flight_Aware_Converter.py` 
 
-Upload a KML and download as a GeoJSON or GeoPackage
+Upload a KML
+![](./assets/upload_01.png)
+
+see it on a map
+![](./assets/map_01.png)
+
+and download as a GeoJSON or GeoPackage
+![](./assets/download_01.png)
 
 ## Possibile Future Features
 
