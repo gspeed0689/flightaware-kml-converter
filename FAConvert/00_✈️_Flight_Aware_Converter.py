@@ -7,7 +7,8 @@ import shapely
 st.title("Flight Aware KML Converter")
 
 st.set_page_config(page_icon="✈️",
-                   layout="wide")
+                   layout="wide",
+                   page_title="FlightAware KML Converter")
 
 kml = st.file_uploader("Upload your FlightAware log KML", 
                        type=["kml", "kmz"])
